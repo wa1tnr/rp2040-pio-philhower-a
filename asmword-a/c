@@ -1,0 +1,15 @@
+#!/bin/sh
+# Wed  5 Apr 16:49:55 UTC 2023
+
+CAPTURE_FILE=build
+
+echo -n '        ';
+echo -n `/bin/date`
+echo -n ': generating  ./'${CAPTURE_FILE}.log'--'$$-;echo
+
+make clean ; make 2>&1 | cat >> ./${CAPTURE_FILE}.log--$$-
+echo -n \'make\' output logged
+echo -n ' to' 
+echo -n '  ./'${CAPTURE_FILE}.log'--'$$-;echo
+
+# end.
