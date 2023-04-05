@@ -1,6 +1,11 @@
 // cloop.c
-// Wed  5 Apr 16:49:55 UTC 2023
+// Wed  5 Apr 19:43:07 UTC 2023
 // https://wokwi.com/projects/361121269426995201
+// was last on wokwi 19:42z
+// was last on linux 19:43z for pio
+
+
+#warning asmword.c 19:43z xferrd from wokwi 5201
 
 #ifndef NOT_WOKWI
     #define HAVE_FOUND_WOKWI_ENVIRONMENT
@@ -9,7 +14,7 @@
         #warning additionally this is platformio philhower core 5 April 2023
     #endif
     #ifndef IS_PIO_NOT_WOKWI
-        #define BLINKS_PARAM 37
+        #define BLINKS_PARAM 9
     #endif
 #endif
 
@@ -17,9 +22,6 @@
 #define HAVE_FOUND_NON_WOKWI_ENVIRONMENT
 #warning this is not wokwi
 #endif
-
-// #define BBLINKS_PARAM 17
-// #define PBLINKS 7 // how many blinks?
 
 #define PBLINKS BLINKS_PARAM // how many blinks?
 
