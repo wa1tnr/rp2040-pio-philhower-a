@@ -8,6 +8,9 @@
     #ifdef IS_PIO_NOT_WOKWI
         #warning additionally this is platformio philhower core 5 April 2023
     #endif
+    #ifndef IS_PIO_NOT_WOKWI
+        #define BLINKS_PARAM 37
+    #endif
 #endif
 
 #ifdef NOT_WOKWI
@@ -43,7 +46,9 @@ void experiment_a_asm();
     #ifdef IS_PIO_NOT_WOKWI
         #include "rp2040_reflash.inc"
     #endif
-
+    #ifndef IS_PIO_NOT_WOKWI
+        void reflash(void) { }
+    #endif
 void setup(void) {
 #endif
 
