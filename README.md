@@ -1,11 +1,10 @@
 # Assembler in arduino-pico philhower platformio
-## Wed  5 Apr 16:49:55 UTC 2023
 
-###For platformio philhower core
+## Wed  5 Apr 19:25:36 UTC 2023
 
-  unrelated link, probably:
+### For platformio philhower core
 
-    https://wokwi.com/projects/360654241673775105
+    https://wokwi.com/projects/361196373384283137
 
   asmword   - blinks n times
 
@@ -17,6 +16,10 @@
   last known working version (but different environment):
 
     https://wokwi.com/projects/361121585740433409
+
+  recent (as above near top of this readme):
+
+    https://wokwi.com/projects/361196373384283137
 
 ```
 ; usual platformio.ini configure for number of blinks:
