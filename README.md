@@ -1,10 +1,10 @@
 # Assembler in arduino-pico philhower platformio
 
-## Wed  5 Apr 19:25:36 UTC 2023
+## Wed  5 Apr 19:56:55 UTC 2023
 
 ### For platformio philhower core
 
-    https://wokwi.com/projects/361196373384283137
+    https://wokwi.com/projects/361198354423342081
 
   asmword   - blinks n times
 
@@ -22,6 +22,9 @@
     https://wokwi.com/projects/361196373384283137
 
   just 'now':
+    https://wokwi.com/projects/361198354423342081
+
+  a moment earlier ago:
     https://wokwi.com/projects/361197941186869249
 
 ```
