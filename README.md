@@ -21,6 +21,9 @@
 
     https://wokwi.com/projects/361196373384283137
 
+  just 'now':
+    https://wokwi.com/projects/361197941186869249
+
 ```
 ; usual platformio.ini configure for number of blinks:
 [env]
